@@ -142,6 +142,70 @@ ul {
     transition: color 0.4s ease;
 }
 
+/* ======================================== */
+/* ==========CONTACT SECTION=============== */
+/* ======================================== */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+    padding: 1rem;
+    background-color: var(--dark);
+}
+
+.contact h2 {
+    font-size: 4rem;
+    color: var(--base-grey);
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.contact p {
+    font-size: 1.6rem;
+    color: var(--base-grey);
+    text-align: center;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 2.4rem;
+    text-shadow: 1px 3px black;
+    
+}
+.contact-links a {
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-links a:hover {
+    transform: translateY(8px);
+}
+
+/* ================================================== */
+/* ===============FOOTER============================= */
+/* ================================================== */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    border-top: 4px solid var(--red);
+    background-color: #132C33;
+}
+footer p{
+    font-size: 1.4rem;
+    color: var(--base-grey);
+}
 
 /* ====== */
 /* Query */

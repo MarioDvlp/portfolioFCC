@@ -56,9 +56,60 @@ ul {
     margin-right: 2rem;
 }
 
-/* ================= */
-/* Welcome Section */
-/* ================ */
+/* ========================================== */
+/* ============LENGUAGE====================== */
+/* ========================================== */
+
+.en {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 2rem;
+    color: #132C33;
+    z-index: 9;
+}
+.check {
+    display: block;
+    position: absolute;
+    top: 83px;
+    left: 115px;
+    z-index: 9;
+    width: 50px;
+    cursor: pointer;
+}
+.check:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+.check:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: var(--base-grey);
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+.check:checked:after{
+    left: 25px;
+    border: 2px solid var(--light-blue);
+}
+.check:checked:before{
+    background-color: var(--light-blue);
+}
+
+
+/* ======================================================== */
+/* ================ Welcome Section ======================= */
+/* ======================================================== */
 .welcome-section {
     display: flex;
     justify-content: center;
@@ -208,9 +259,9 @@ footer p{
     color: var(--base-grey);
 }
 
-/* ====== */
-/* Query */
-/* ===== */
+/* ============================================== */
+/* ================ Query ======================== */
+/* ============================================= */
 
 @media (max-width: 400px){
     html {
@@ -231,7 +282,6 @@ footer p{
     .contact p {
         font-size: 1.2rem;
     }
-    
     .contact-links {
         display: grid;
         grid-template-columns: 1fr 1fr;

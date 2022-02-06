@@ -73,7 +73,7 @@ ul {
     display: block;
     position: absolute;
     top: 83px;
-    left: 115px;
+    left: 118px;
     z-index: 9;
     width: 50px;
     cursor: pointer;
@@ -260,7 +260,7 @@ footer p{
 }
 
 /* ============================================== */
-/* ================ Query ======================== */
+/* ================ Querys ======================== */
 /* ============================================= */
 
 @media (max-width: 400px){
@@ -272,9 +272,9 @@ footer p{
 
     }
     .nav-list {
-        margin: 0;;
+        margin: 0;
     }
-    
+
     .contact h2 {
         font-size: 3rem;
     }
@@ -296,6 +296,9 @@ footer p{
     .contact-links {
         font-size: 2.1rem;
         min-width: 235px;
+    }
+    .nav-list a{
+        font-size: 2rem;
     }
 }
 

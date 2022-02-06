@@ -70,10 +70,10 @@ ul {
     z-index: 9;
 }
 .check {
-    display: block;
+    display: hidden;
     position: absolute;
     top: 83px;
-    left: 118px;
+    left: 115px;
     z-index: 9;
     width: 50px;
     cursor: pointer;
